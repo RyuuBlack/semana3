@@ -1,0 +1,138 @@
+.header{
+  display: flex;
+  justify-content: space-between;
+  justify-self: flex-end;
+  flex-direction: column wrap;
+  align-items: center;
+  margin: 40px 200px;
+}
+
+.logo{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  font-size: 30px;
+  align-items: flex-end;
+  position: relative;
+}
+
+.button-login{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-decoration: none;
+  color: #96bb7c;
+}
+
+.button-primary{
+  
+  text-decoration: none;
+  background-color: #96bb7c;
+  color:#fff;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: 5px;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.button-secundary{
+  text-decoration: none;
+  color:#96bb7c;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: 10px 5px;
+  padding: 10px 20px;
+  border: 1px solid;
+  border-radius: 5px;
+  border-color: #96bb7c;
+}
+
+
+.banner {
+  display: flex;
+  background-color: #f7f7f7;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 50px;
+}
+
+h4{
+  color: #96bb7c;
+}
+
+h5{
+  font-size: 40px;
+  margin: 0px;
+  color: #96bb7c;
+}
+
+.banner p{
+  color: #737373;
+  font-size: 20px;
+  padding: 20px 0px;
+}
+
+.statistics p{
+  font-weight: bold;
+}
+
+.statistics{
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  /* background-color: #737373; */
+  gap: 30px;
+  padding: 60px 0px;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  background-color: #fff2f3;
+  padding: 100px 300px;
+}
+
+.card-statistics{
+  /* background-color: #96bb7c; */
+  text-align: center;
+  padding: 0px 20px;
+}
+
+.content-cards{
+  display: flex;
+  flex-flow: row wrap;
+  gap: 20px;
+}
+
+.card-quality{
+
+  background-color: #fff;
+  box-shadow: -1px 4px 1px 1px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  padding: 30px;
+  /* background-color: #96bb7c; */
+  /* text-align: center; */
+  /* padding: 0px 20px; */
+}
+
+.dental{
+  margin-left: 120px;
+  margin-right: 20px;
+}
+
+.quality{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 45px;
+  margin: 50px 0px;
+  width: 100%;
+}
+
+.footer{
+
+  margin: 0px 200px;
+}
+
+
